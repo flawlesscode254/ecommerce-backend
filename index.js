@@ -26,8 +26,7 @@ app.use("/auth", Authentication);
 app.use("/cart", Cart);
 app.use("/favorites", Favories);
 
-// const port = process.env.PORT;
-const port = 2393;
+const port = process.env.PORT;
 
 const url = process.env.DB_URL;
 
